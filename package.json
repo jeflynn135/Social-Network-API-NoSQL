@@ -1,0 +1,22 @@
+{
+  "name": "social-network-api-nosql",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.19.2",
+    "mongodb": "^6.7.0",
+    "mongodb-connection-string-url": "^3.0.1",
+    "mongoose": "^8.5.1",
+    "mpath": "^0.9.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
